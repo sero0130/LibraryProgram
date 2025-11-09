@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\assistant.c" />
+    <ClCompile Include="assistant.c" />
     <ClCompile Include="book.c" />
     <ClCompile Include="borrow.c" />
     <ClCompile Include="color.c" />
