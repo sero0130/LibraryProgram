@@ -124,25 +124,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\book_management_project\book_management_project\assistant.c" />
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\book.c" />
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\borrow.c" />
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\color.c" />
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\login.c" />
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\main.c" />
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\menu.c" />
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\ui.c" />
+    <ClCompile Include="book.c" />
+    <ClCompile Include="borrow.c" />
+    <ClCompile Include="color.c" />
+    <ClCompile Include="login.c" />
+    <ClCompile Include="menu.c" />
+    <ClCompile Include="ui.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\account.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\assistant.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\book.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\borrow.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\color.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\database.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\login.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\menu.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\structs.h" />
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\ui.h" />
+    <ClInclude Include="account.h" />
+    <ClInclude Include="assistant.h" />
+    <ClInclude Include="book.h" />
+    <ClInclude Include="borrow.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="login.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="ui.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,57 +18,54 @@
     <ClCompile Include="..\..\..\book_management_project\book_management_project\assistant.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\book.c">
+    <ClCompile Include="book.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\borrow.c">
+    <ClCompile Include="borrow.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\color.c">
+    <ClCompile Include="color.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\login.c">
+    <ClCompile Include="login.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\main.c">
+    <ClCompile Include="menu.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\menu.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\book_management_project\book_management_project\ui.c">
+    <ClCompile Include="ui.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\structs.h">
+    <ClInclude Include="account.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\ui.h">
+    <ClInclude Include="assistant.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\account.h">
+    <ClInclude Include="book.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\assistant.h">
+    <ClInclude Include="borrow.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\book.h">
+    <ClInclude Include="color.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\borrow.h">
+    <ClInclude Include="database.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\color.h">
+    <ClInclude Include="login.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\database.h">
+    <ClInclude Include="menu.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\login.h">
+    <ClInclude Include="structs.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\book_management_project\book_management_project\menu.h">
+    <ClInclude Include="ui.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
